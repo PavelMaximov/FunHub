@@ -1,16 +1,13 @@
-import { BrowserRouter, Routes } from "react-router-dom";
-import './App.scss'
+import React from "react";
+import Layout from "./components/Layout/Layout";
+import Home from "./pages/Home";
 
-function App() {
-  
-
+const App: React.FC = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* <Route path="/" element={Здесь будет главная страница} /> */}
-      </Routes>
-    </BrowserRouter>
-  )
-}
+    <Layout>
+      <Home />
+    </Layout>
+  );
+};
 
-export default App
+export default App;

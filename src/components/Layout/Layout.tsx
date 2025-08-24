@@ -1,6 +1,7 @@
 import React from 'react'
 import type { ReactNode } from 'react';
 import styles from './Layout.module.scss'
+import Header from '../Header/Header';
 
 interface LayoutProps {
     children: ReactNode;
@@ -9,6 +10,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <div className={styles.wrapper}>
+            <Header />
             <main className={styles.container}>{children}</main>
         </div>
     )

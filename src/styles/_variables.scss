@@ -10,3 +10,16 @@ $font-title: "Montserrat Alternates", sans-serif;
 $font-body: "Nunito Sans", sans-serif;
 
 $container-width: 1360px;
+
+// Responsive padding
+$padding-desktop: 40px;  // 1440px and above
+$padding-tablet: 30px;   // 1000px and 768px
+$padding-mobile: 20px;   // 480px and 360px
+
+// Breakpoints
+$breakpoint-desktop: 1440px;
+$breakpoint-large: 1000px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 480px;
+$breakpoint-small: 360px;
+

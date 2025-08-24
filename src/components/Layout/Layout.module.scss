@@ -5,6 +5,26 @@
   flex-direction: column;
   min-height: 100vh;
   background: $color-bg;
+  
+  
+  padding: 0 #{$padding-desktop};
+  
+  // Responsive breakpoints with specific padding values
+  @media (max-width: #{$breakpoint-desktop - 1px}) {
+    padding: 0 #{$padding-tablet}; // 1000px - 30px
+  }
+  
+  @media (max-width: #{$breakpoint-large - 1px}) {
+    padding: 0 #{$padding-tablet}; // 768px - 30px
+  }
+  
+  @media (max-width: #{$breakpoint-tablet - 1px}) {
+    padding: 0 #{$padding-mobile}; // 480px - 20px
+  }
+  
+  @media (max-width: #{$breakpoint-mobile - 1px}) {
+    padding: 0 #{$padding-mobile}; // 360px - 20px
+  }
 }
 
 .container {

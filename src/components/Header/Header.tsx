@@ -6,7 +6,7 @@ import { useTheme } from "@mui/material/styles";
 
 const Header: React.FC = () => {
     const theme = useTheme();
-    const [activeCategory, setActiveCategory] = useState<number | null>(null); // No default active category
+    const [activeCategory, setActiveCategory] = useState<number | null>(null); 
 
     const categories = [
         "Картегория 1",

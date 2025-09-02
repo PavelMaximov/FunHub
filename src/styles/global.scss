@@ -8,6 +8,7 @@
 
 body {
   background: $color-bg;
+ 
 }
 
 a {
@@ -19,10 +20,3 @@ ul {
   list-style: none;
 }
 
-.container {
-  max-width: 1392px;
-  margin: 0 auto;
-  padding-left: clamp(8px, 2vw, 16px);
-  padding-right: clamp(8px, 2vw, 16px);
-  width: 100%;
-}

@@ -1,11 +1,11 @@
 import React from "react";
+import BannerSlider from "../components/Banner/BannerSlider";
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Главная страница</h1>
-      <p>Тут будет контент из макета</p>
-    </div>
+    <>
+     <BannerSlider />
+    </>
   );
 };
 

@@ -47,7 +47,7 @@ const theme = useTheme();
   };
 
   return (
-    <Box sx={{ width: "100%", mx: "auto" }}>
+    <Box sx={{ width: "100%", mx: "auto", mb:10}}>
       <Banner {...banners[currentIndex]} />
       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "left", mt: 2 }}>
         <Box sx={{ display: "flex", gap: 2 }}>

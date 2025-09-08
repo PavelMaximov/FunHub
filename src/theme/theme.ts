@@ -9,7 +9,7 @@ const theme = createTheme({
       main: "#4A0F26", 
     },
     secondary: {
-      main: "#AF7332", 
+      main: "#9C9773", 
     },
     background: {
       default: "#230014", 
@@ -21,6 +21,7 @@ const theme = createTheme({
     h1: { fontFamily: '"Montserrat Alternates", sans-serif' },
     h2: { fontFamily: '"Montserrat Alternates", sans-serif' },
     h3: { fontFamily: '"Montserrat Alternates", sans-serif' },
+    h4: { fontFamily: '"Montserrat Alternates", sans-serif' },
   }
 });
 
@@ -54,13 +55,13 @@ declare module "@mui/material/styles" {
 
 theme.customGradients = {
   accent: "linear-gradient(90deg, #AF7332 24%, #C70B48 100%)",
-  background: "linear-gradient(153.825deg, #34021F 0%, #230014 48%, #34021F 100%)",
+  background: "linear-gradient(153.825deg, #34001E 0%, #400628 48%, #34001E 100%)",
   border: "linear-gradient(180deg, #9C9773 0%, #501028 100%)",
 };
 
 theme.customRadius = {
-  sm: 10,
-  md: 14,
+  sm: 14,
+  md: 16,
   lg: 18,
 };
 
